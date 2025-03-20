@@ -1,0 +1,19 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# geojor_dados
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Repositório de dados utilizados pela Unidade de Geojornalismo da
+InfoAmazonia.
+
+```{r index, echo = FALSE}
+readr::read_csv("index.csv", show_col_types = FALSE) |>
+  knitr::kable()
+```
+
